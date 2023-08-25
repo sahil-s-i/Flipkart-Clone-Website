@@ -1,0 +1,124 @@
+.flex-all-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 4px 30px;
+    background-color: white;
+    color: var(--main-bg-color);
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#sicon {
+    width: 34px;
+    margin-right: 2px;
+    position: absolute;
+    top: 19px;
+    left: 685px;
+}
+
+.my-1 {
+    margin: 5px 0px;
+}
+
+.my-2 {
+    margin: 12px 0px;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+/* nav bar drop down  */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop_cont {
+    display: none;
+    position: absolute;
+    left: -76%;
+    top: 48px;
+    background-color: #f1f1f1;
+    width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 14px;
+}
+
+.dropdown #more-items {
+    top: 42px;
+}
+
+.drop_cont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0px;
+}
+
+.drop_cont a:hover {
+    background-color: #f4f2f2;
+}
+
+.dropdown:hover .drop_cont {
+    display: block;
+}
+
+.drop_cont hr {
+    opacity: 0;
+}
+
+/* Arrow styles */
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+    content: '';
+    transform: translateY(-50%) rotate(0deg);
+    transition: transform 0.3s ease;
+    opacity: 0.7;
+}
+
+.dropdown:hover .arrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/*triangle pointer*/
+.dropdown::after {
+    content: "";
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent white transparent;
+    display: none;
+}
+
+/* Show the triangle pointer when the dropdown is hovered */
+.dropdown:hover::after {
+    display: block;
+}
+
+.dropdown.active::after {
+    display: block;
+}
+
+

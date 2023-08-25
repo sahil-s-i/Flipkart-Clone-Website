@@ -1,0 +1,25 @@
+/* animation progress bar */
+.progress {
+    background-color: red;
+    height: 1px;
+    animation: load 0.8s ease-in-out 1;
+    z-index: 1;
+}
+
+.hide {
+    display: none;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100vw;
+    }
+
+    100% {
+        width: 100vw;
+    }
+}
