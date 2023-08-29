@@ -26,7 +26,7 @@ electronicProductData.forEach(el => {
 });
 bestofElectronic_Product_itemEl.innerHTML = bestofElectronicProduct_html
 
-// ************ beauty food toys and more  **************
+// ************ beauty food toys and more div **************
 
 let bestofElectronic_Product_itemE2 = document.querySelector(".bestofbeautyfoodtoys_Product_item")
 let bestofbeautyfoodtoys_Product_item = ""
