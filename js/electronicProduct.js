@@ -60,7 +60,7 @@ export const electronicProductData = [
 
 ]
 
-// ************ beauty food toys and more  **************
+// ************ beauty food toys and more  div**************
 export const BeautyfoodandmoreProductData = [
     {
         img: "https://rukminim2.flixcart.com/image/200/200/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg?q=70",
