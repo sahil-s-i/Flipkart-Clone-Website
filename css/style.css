@@ -483,10 +483,7 @@ nav ul li a:hover {
 }
 
 .bestofElectronic_Product_item,
-.bestofbeautyfoodtoys_Product_item,
-.bestofhomekitchen_Product_item,
-.fashionbestsellers_Product_item,
-.topdealsontvandappliance_Product_item {
+.bestofbeautyfoodtoys_Product_item {
     display: flex;
     overflow: hidden;
     /* important */
