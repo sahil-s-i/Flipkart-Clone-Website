@@ -119,3 +119,63 @@ export const BeautyfoodandmoreProductData = [
         link: ""
     },
 ]
+
+// ************ home and Kitchen Essentials  **************
+export const homekitchenandessentialProductData = [
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/hose-connector/b/q/b/1-2-brass-nozzle-water-spray-gun-hose-nozzles-pipe-for-gardening-original-imaghbm9jgx9vgxh.jpeg?q=70",
+        productName: "Sanitizer Sprayers",
+        discount: "From ₹199",
+        brand: "Best Selling",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/k5e7o280/wall-clock/6/h/j/designer-wall-clock10-cw-ct-red25412-analog-ajanta-original-imafzyx3fdtf2hcb.jpeg?q=70",
+        productName: "Clocks",
+        discount: "Upto 80% Off",
+        brand: "Big Discounts",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/ks4yz680/sticker/d/g/t/wall-stickers-wallpaper-home-decoration-whale-and-shaded-frames-original-imag5rvjdvrjdzgc.jpeg?q=70",
+        productName: "Stickers & Wallpapers",
+        discount: "Upto 80% Off",
+        brand: "Big Discounts",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/k0e66q80/plant-sapling/c/e/7/air-purifying-pothos-money-plant-with-imported-pot-1-water-original-imafk747aczgq6ze.jpeg?q=70",
+        productName: "Live Plants",
+        discount: "From ₹199",
+        brand: "Best Selling",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/kz065jk0/emergency-light/v/t/4/high-quality-60-high-bright-led-light-with-android-charging-original-imagb3v8h8zdm3q3.jpeg?q=70",
+        productName: "Emergency Lights",
+        discount: "Upto 80% Off",
+        brand: "Big Discounts",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/l1jmc280/mattress-protector/w/g/e/shmp723612gy-sleepyhead-original-imagd37rhpjqngzk.jpeg?q=70",
+        productName: "Mattress Protectors",
+        discount: "From ₹149",
+        brand: "Best Offers",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/k6mibgw0/vase/b/k/h/double-face-vase-combo-8-10-wauood-original-imafpfhzhhxdeexf.jpeg?q=70",
+        productName: "Vases",
+        discount: "Upto 80% Off",
+        brand: "Big Discounts",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/hammer/v/f/b/-original-imagg5cz99jzauk2.jpeg?q=70",
+        productName: "Hammers",
+        discount: "From ₹139",
+        brand: "Buildskill and more",
+        link: ""
+    },
+]
