@@ -179,3 +179,63 @@ export const homekitchenandessentialProductData = [
         link: ""
     },
 ]
+
+// ******************** Fashion Best Sellers ***********************
+export const FashionbestsellersProductData = [
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/jwgple80/backpack/n/e/w/spin-laptop-backpack-01-teal-fs0-0-11-001-laptop-backpack-original-imafh54gqnmpsczs.jpeg?q=70",
+        productName: "Safari, Wildcraft, Aristocrat...",
+        discount: "Min 65% Off",
+        brand: "Cool Backpacks",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/sari/8/6/w/free-sknt17-d-divastri-unstitched-original-imagg9j9vvv8s3hb.jpeg?q=70",
+        productName: "Anmi, Divastri & more",
+        discount: "60-90% Off",
+        brand: "Kurta, Sarees & more",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/kqpj4i80/ring/8/1/8/adjustable-cfr-k149-ring-set-karishma-kreations-original-imag4ntug2g26twf.jpeg?q=70",
+        productName: "Jewellery",
+        discount: "Under ₹799",
+        brand: "Grab Now",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/kuef2q80/kurta/h/n/y/s-dafksp20pi21aqua-max-original-imag7j8gnghzahsu.jpeg?q=70",
+        productName: "Max & Rangmanch",
+        discount: "Under ₹499",
+        brand: "Kurtas & Kurtis",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=70",
+        productName: "Sweatshirts, Hoodies, Jackets...",
+        discount: "From ₹249",
+        brand: "Wildcraft, Fort Collins...",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/jvmpci80/track-pant/g/w/j/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.jpeg?q=70",
+        productName: "Nivia, Van Heusen Flex..",
+        discount: "Up to 60% Off",
+        brand: "Trackpants, Shorts",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/fk-p-flap/200/200/image/dca97fb4b0c593f8.jpg?q=70",
+        productName: "Trendy Kurtas, Sets & more",
+        discount: "Min 75% Off",
+        brand: "Libas",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/dress/j/s/f/s-kbt-559-krati-by-tara-original-imagg9hftvfxe56u.jpeg?q=70",
+        productName: "Dresses, Tops, Jeans",
+        discount: "Min 60% Off",
+        brand: "Dressberry, Vero Moda, Levi's",
+        link: ""
+    },
+]
