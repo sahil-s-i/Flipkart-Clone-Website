@@ -1,6 +1,7 @@
 import { electronicProductData } from "./electronicProduct.js";
 import { BeautyfoodandmoreProductData } from "./electronicProduct.js";
 import { homekitchenandessentialProductData } from "./electronicProduct.js";
+import { FashionbestsellersProductData } from "./electronicProduct.js";
 
 
 
@@ -75,3 +76,26 @@ homekitchenandessentialProductData.forEach(el => {
         `
 });
 bestofElectronic_Product_itemE3.innerHTML = bestofhomekitchen_Product_item
+
+// ******************** Fashion Best Sellers ***********************
+let bestofElectronic_Product_itemE4 = document.querySelector(".fashionbestsellers_Product_item")
+let fashionbestsellers_Product_item = ""
+
+FashionbestsellersProductData.forEach(el => {
+    fashionbestsellers_Product_item += `
+        <a href="${el.link}" >
+            <div class="bestofElectronic_item">
+                <div class="bestofElectronic_image_product">
+                    <img src="${el.img}"
+                        alt="">
+                </div>
+                <div class="bestofElectronicmoreOption">
+                    <p class="bestofElectronicProduct_name">${el.productName}</p>
+                    <p class="bestofElectronic_discount">${el.discount}</p>
+                    <p class="bestofElectronic_brand">${el.brand}</p>
+                </div>
+            </div>
+        </a>
+        `
+});
+bestofElectronic_Product_itemE4.innerHTML = fashionbestsellers_Product_item
