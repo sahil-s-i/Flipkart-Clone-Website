@@ -1,9 +1,10 @@
+// import the functions from another file 
+
 import { electronicProductData } from "./electronicProduct.js";
 import { BeautyfoodandmoreProductData } from "./electronicProduct.js";
 import { homekitchenandessentialProductData } from "./electronicProduct.js";
 import { FashionbestsellersProductData } from "./electronicProduct.js";
-
-
+import { tvandapplienceProductData } from "./electronicProduct.js";
 
 // ************ top deals on electronics **************
 
@@ -99,3 +100,26 @@ FashionbestsellersProductData.forEach(el => {
         `
 });
 bestofElectronic_Product_itemE4.innerHTML = fashionbestsellers_Product_item
+
+// ****************** Top deals on TVs and Appliances ***********************
+let bestofElectronic_Product_itemE5 = document.querySelector(".topdealsontvandappliance_Product_item")
+let topdealsontvandappliance_Product_item = ""
+
+tvandapplienceProductData.forEach(el => {
+    topdealsontvandappliance_Product_item += `
+        <a href="${el.link}" >
+            <div class="bestofElectronic_item">
+                <div class="bestofElectronic_image_product">
+                    <img src="${el.img}"
+                        alt="">
+                </div>
+                <div class="bestofElectronicmoreOption">
+                    <p class="bestofElectronicProduct_name">${el.productName}</p>
+                    <p class="bestofElectronic_discount">${el.discount}</p>
+                    <p class="bestofElectronic_brand">${el.brand}</p>
+                </div>
+            </div>
+        </a>
+        `
+});
+bestofElectronic_Product_itemE5.innerHTML = topdealsontvandappliance_Product_item
