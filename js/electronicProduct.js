@@ -239,3 +239,63 @@ export const FashionbestsellersProductData = [
         link: ""
     },
 ]
+
+// ****************** Top deals on TVs and Appliances ***********************
+export const tvandapplienceProductData = [
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/washing-machine-new/c/j/u/-original-imags5exuadhahhu.jpeg?q=70",
+        productName: "Semi Automatic Washing Machines",
+        discount: "From ₹ 6,990",
+        brand: "Buy Now",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/kfeamq80/refrigerator-new/c/t/h/468asmqs-na-marq-by-flipkart-original-imafvufgxpd8bged.jpeg?q=70",
+        productName: "Marq Refrigerator",
+        discount: "From ₹8,999",
+        brand: "Buy Now!",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/refrigerator-new/t/x/s/-original-imaghtghjcf67haj.jpeg?q=70",
+        productName: "Double Door Refrigerator",
+        discount: "From ₹16,129",
+        brand: "Samsung,LG...",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/refrigerator-new/q/z/s/-original-imagnjywjz7awf8h.jpeg?q=70",
+        productName: "Single Door Refrigerator",
+        discount: "From ₹9,990",
+        brand: "Samsung,LG...",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/refrigerator-new/x/b/q/-original-imagpyjfdzwzhsrk.jpeg?q=70",
+        productName: "Godrej Refrigerator",
+        discount: "From ₹7,240",
+        brand: "Buy Now!",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/xif0q/washing-machine-new/z/l/l/-original-imags7tpwaxawghz.jpeg?q=70",
+        productName: "Top Load Washing Machines",
+        discount: "From ₹11,280",
+        brand: "Buy now",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/kg15ocw0/refrigerator-new/p/t/m/592hsmtb-na-motorola-original-imafwcn8yynzypvv.jpeg?q=70",
+        productName: "Motorola Refrigerator",
+        discount: "From ₹23,990",
+        brand: "Grab Now!",
+        link: ""
+    },
+    {
+        img: "https://rukminim2.flixcart.com/image/200/200/kgl5ua80/washing-machine-new/k/w/s/105fliwbm5dg-motorola-original-imafwse6knmbgy48.jpeg?q=70",
+        productName: "Front Load Washing Machines",
+        discount: "From ₹17,990",
+        brand: "Buy now",
+        link: ""
+    },
+]
