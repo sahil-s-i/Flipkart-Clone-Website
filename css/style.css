@@ -100,7 +100,6 @@ nav ul li a:hover {
 /* drop down menus for a menu-items smalll items */
 .dropdown2 {
     position: relative;
-    /* display: inline-block; */
 }
 
 .drop_cont2 {
@@ -108,7 +107,6 @@ nav ul li a:hover {
     position: absolute;
     left: -90%;
     top: 105px;
-    /* background-color: #f1f1f1; */
     background-color: white;
     width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -233,7 +231,6 @@ nav ul li a:hover {
 
 .container .menu {
     width: 100vw;
-    /* height: 20vh; */
     border: 1px solid rgb(205, 203, 203);
     display: flex;
     align-items: center;
@@ -283,7 +280,6 @@ nav ul li a:hover {
 
 .container .menu {
     width: 100vw;
-    /* height: 20vh; */
     border: 1px solid rgb(205, 203, 203);
     display: flex;
     align-items: center;
@@ -375,10 +371,6 @@ nav ul li a:hover {
 /* ---------------- best of electronics ------------------- */
 
 .bestofElectronic_Container {
-    /* width: 99%; */
-    /* border: 2px solid black; */
-    /* height: 310px; */
-    /* background-color: red; */
     margin-bottom: 20px;
 }
 
@@ -403,7 +395,6 @@ nav ul li a:hover {
     height: 352px;
     position: relative;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -449,8 +440,6 @@ nav ul li a:hover {
 
 .bestofElectronic_image_product img {
     width: 90%;
-    /* height: auto; */
-    /* max-height: 210px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -515,13 +504,8 @@ nav ul li a:hover {
 }
 
 .footer-container {
-    /* border: 2px solid green; */
     display: flex;
     flex-flow: row wrap;
-    /* min-width: 978px; */
-    /* margin-left: 65px; */
-    /* width: 90% !important; */
-    /* padding-top: 40px; */
 }
 
 .flex-all-center #mail-us-side-border {
@@ -531,7 +515,6 @@ nav ul li a:hover {
 .footer-container .contents {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid red; */
     white-space: nowrap;
     text-align: left;
     letter-spacing: 0;
@@ -573,10 +556,3 @@ nav ul li a:hover {
     letter-spacing: 1px;
 
 }
-
-/* footer {
-    height: 7vh;
-    background-color: var(--main-bg-color);
-    color: white;
-    font-family: 'Lato', sans-serif;
-} */
