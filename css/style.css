@@ -553,6 +553,5 @@ nav ul li a:hover {
     padding: 25px;
     color: white;
     text-align: center;
-    letter-spacing: 1px;
-
+    letter-spacing: 0.2px;
 }
